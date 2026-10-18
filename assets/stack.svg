@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">Technology Stack</title><desc id="desc">Self-contained GitHub profile artwork for Sai Chythanya G B. All supplied portrait imagery is embedded as PNG data.</desc>
+
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b16"/><stop offset="1" stop-color="#101a2e"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#247bff"/><stop offset="1" stop-color="#ff354f"/></linearGradient>
+ <linearGradient id="foil" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#247bff" stop-opacity="0"/><stop offset=".48" stop-color="#ffffff" stop-opacity=".25"/><stop offset="1" stop-color="#ff354f" stop-opacity="0"/></linearGradient>
+ <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#8ba6d7" opacity=".18"/></pattern>
+ <style>
+  text{font-family:Arial,Helvetica,sans-serif}
+  .display{font-weight:800;letter-spacing:-1.4px;fill:#f4f7ff}
+  .sub{font-size:20px;fill:#aab8d1}
+  .mono{font-family:monospace;font-size:15px;letter-spacing:1.2px;fill:#83b4ff}
+  .chip{font-size:16px;fill:#e9efff}
+  .card{fill:#101a2e;stroke:#2b3a56;stroke-width:1.5}
+  .line{stroke:url(#edge);stroke-width:2;fill:none}
+  .enter{animation:rise .85s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+  @media(prefers-reduced-motion:reduce){.enter{animation:none!important}}
+ </style>
+</defs>
+<rect width="1200" height="430" rx="22" fill="url(#bg)"/><rect width="1200" height="430" rx="22" fill="url(#dots)"/><path d="M0 7H1200" stroke="url(#edge)" stroke-width="7"/><rect x="20" y="20" width="1160" height="390" rx="18" fill="none" stroke="#293752"/>
+
+<text x="52" y="61" class="mono">02 / TECHNOLOGY STACK</text>
+<text x="52" y="112" class="display" font-size="40">Tools I build with</text>
+<g transform="translate(385,205)">
+ <ellipse rx="310" ry="72" fill="none" stroke="#247bff" stroke-width="2" opacity=".65" transform="rotate(-19)"/>
+ <ellipse rx="310" ry="72" fill="none" stroke="#ff354f" stroke-width="2" opacity=".55" transform="rotate(19)"/>
+ <ellipse rx="260" ry="112" fill="none" stroke="#607ba9" stroke-width="1.5" opacity=".7"/>
+ <circle cx="0" cy="0" r="57" fill="#111e33" stroke="url(#edge)" stroke-width="2"/>
+ <text x="0" y="-4" text-anchor="middle" class="display" font-size="20">BUILD</text><text x="0" y="21" text-anchor="middle" class="mono">+ LEARN</text>
+ <g><rect x="-300" y="-15" width="110" height="34" rx="10" fill="#111e33" stroke="#247bff"/><text x="-245" y="7" text-anchor="middle" class="chip" font-size="14">Python</text></g>
+ <g><rect x="-135" y="-107" width="105" height="34" rx="10" fill="#111e33" stroke="#ff354f"/><text x="-82" y="-85" text-anchor="middle" class="chip">Java</text></g>
+ <g><rect x="78" y="-110" width="130" height="34" rx="10" fill="#111e33" stroke="#247bff"/><text x="143" y="-88" text-anchor="middle" class="chip">JavaScript</text></g>
+ <g><rect x="210" y="-10" width="110" height="34" rx="10" fill="#111e33" stroke="#ff354f"/><text x="265" y="12" text-anchor="middle" class="chip">React</text></g>
+ <g><rect x="85" y="91" width="120" height="34" rx="10" fill="#111e33" stroke="#247bff"/><text x="145" y="113" text-anchor="middle" class="chip">Node.js</text></g>
+ <g><rect x="-205" y="83" width="115" height="34" rx="10" fill="#111e33" stroke="#ff354f"/><text x="-147" y="105" text-anchor="middle" class="chip">FastAPI</text></g>
+</g>
+<g transform="translate(55,350)">
+ <text x="0" y="0" class="mono">BACKEND</text><text x="0" y="28" class="chip">Node.js · Express · FastAPI</text>
+ <text x="370" y="0" class="mono">DATA &amp; AI</text><text x="370" y="28" class="chip">MongoDB · Machine Learning · Streamlit</text>
+ <text x="805" y="0" class="mono">CORE TOOLS</text><text x="805" y="28" class="chip">Git · GitHub</text>
+</g>
+</svg>

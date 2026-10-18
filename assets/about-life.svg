@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="365" viewBox="0 0 1200 365" role="img" aria-labelledby="title desc">
+<title id="title">About and Interests</title><desc id="desc">Self-contained GitHub profile artwork for Sai Chythanya G B. All supplied portrait imagery is embedded as PNG data.</desc>
+
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b16"/><stop offset="1" stop-color="#101a2e"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#247bff"/><stop offset="1" stop-color="#ff354f"/></linearGradient>
+ <linearGradient id="foil" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#247bff" stop-opacity="0"/><stop offset=".48" stop-color="#ffffff" stop-opacity=".25"/><stop offset="1" stop-color="#ff354f" stop-opacity="0"/></linearGradient>
+ <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#8ba6d7" opacity=".18"/></pattern>
+ <style>
+  text{font-family:Arial,Helvetica,sans-serif}
+  .display{font-weight:800;letter-spacing:-1.4px;fill:#f4f7ff}
+  .sub{font-size:20px;fill:#aab8d1}
+  .mono{font-family:monospace;font-size:15px;letter-spacing:1.2px;fill:#83b4ff}
+  .chip{font-size:16px;fill:#e9efff}
+  .card{fill:#101a2e;stroke:#2b3a56;stroke-width:1.5}
+  .line{stroke:url(#edge);stroke-width:2;fill:none}
+  .enter{animation:rise .85s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+  @media(prefers-reduced-motion:reduce){.enter{animation:none!important}}
+ </style>
+</defs>
+<rect width="1200" height="365" rx="22" fill="url(#bg)"/><rect width="1200" height="365" rx="22" fill="url(#dots)"/><path d="M0 7H1200" stroke="url(#edge)" stroke-width="7"/><rect x="20" y="20" width="1160" height="325" rx="18" fill="none" stroke="#293752"/>
+
+<text x="52" y="61" class="mono">01 / ABOUT &amp; INTERESTS</text>
+<text x="52" y="111" class="display" font-size="38">Building useful things with code.</text>
+<text x="54" y="149" class="sub" font-size="18">Interested in practical AI, software, and steady improvement.</text>
+<g transform="translate(54,183)">
+ <rect width="1090" height="125" rx="18" class="card"/>
+ <g>
+  <text x="30" y="39" class="mono">CAPABILITIES</text>
+  <text x="30" y="70" class="chip">AI application development</text>
+  <text x="30" y="96" class="chip">Full-stack software</text>
+ </g>
+ <g transform="translate(540,0)">
+  <rect x="0" y="18" width="510" height="88" rx="14" fill="#0b1222" stroke="#2b3a56"/>
+  <g opacity="1">
+   <text x="24" y="44" class="mono">INTEREST 01 / 03</text><text x="24" y="76" class="display" font-size="27">AI projects</text>
+   <animate attributeName="opacity" values="1;1;0;0;0;1" keyTimes="0;0.30;0.34;0.64;0.68;1" dur="12s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+   <text x="24" y="44" class="mono">INTEREST 02 / 03</text><text x="24" y="76" class="display" font-size="27">Coding</text>
+   <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.30;0.34;0.64;0.68;1" dur="12s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+   <text x="24" y="44" class="mono">INTEREST 03 / 03</text><text x="24" y="76" class="display" font-size="27">Fitness</text>
+   <animate attributeName="opacity" values="0;0;0;0;1;1" keyTimes="0;0.30;0.34;0.64;0.68;1" dur="12s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(24,112)">
+   <rect width="145" height="3" rx="1.5" fill="#293752"/><rect width="145" height="3" rx="1.5" fill="#247bff"><animate attributeName="width" values="0;145" dur="4s" repeatCount="indefinite"/></rect>
+   <rect x="157" width="145" height="3" rx="1.5" fill="#293752"/><rect x="157" width="145" height="3" rx="1.5" fill="#247bff"><animate attributeName="width" values="0;145" begin="4s" dur="4s" repeatCount="indefinite"/></rect>
+   <rect x="314" width="145" height="3" rx="1.5" fill="#293752"/><rect x="314" width="145" height="3" rx="1.5" fill="#ff354f"><animate attributeName="width" values="0;145" begin="8s" dur="4s" repeatCount="indefinite"/></rect>
+  </g>
+ </g>
+</g>
+</svg>
