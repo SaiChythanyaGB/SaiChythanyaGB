@@ -23,11 +23,6 @@
   <img src="./assets/connect.svg?v=1" alt="Connect with Sai" width="100%">
 </p>
 
-<p align="center">
-  <a href="https://github.com/SaiChythanyaGB">GitHub</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/sai-chythanya-g-b-402424300/">LinkedIn</a>
-</p>
 
 ## Selected projects
 
